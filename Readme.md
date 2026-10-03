@@ -1,45 +1,47 @@
-# Web Engineering Lab
+# Web Engineering Lab 02
 
-This repository contains the work completed for the Web Engineering Lab.
+## Semantic HTML and Accessibility Foundations
 
-## Project Structure
-
-* `public/` — Contains the HTML, CSS, and JavaScript files.
-* `tests/` — Contains the automated tests.
-* `README.md` — Project documentation.
-* `package.json` — Project configuration and scripts.
-
-## Technologies Used
-
-* HTML
-* CSS
-* JavaScript
-* Node.js
-* ESLint
-* Prettier
-* Serve
-* Git & GitHub
+This project is part of Web Engineering Lab 02.  
+The purpose of this lab is to create a simple and accessible webpage using semantic HTML, CSS, SVG, forms, and accessibility features.
 
 ## Features
 
-* Displays a greeting message using JavaScript.
-* Includes a `greet()` function.
-* Uses Node.js built-in test runner.
-* Includes ESLint and Prettier for code quality and formatting.
-* Project is version-controlled using Git and hosted on GitHub.
+- Semantic HTML structure
+- Header, navigation, main, sections, and footer
+- Skip to main content link
+- Office Hours table
+- Accessible table headings and time elements
+- Decorative SVG icon
+- Informative SVG location icon
+- Feedback form
+- Labels for form fields
+- Fieldset and legend for topic selection
+- Required form fields
+- Keyboard focus indicators
+- Basic CSS styling
+- Accessibility testing using Lighthouse
 
-## Testing
+## Technologies Used
 
-Run:
+- HTML5
+- CSS3
+- SVG
+- JavaScript
+- Chrome Lighthouse
 
-```bash
-node --test
-```
+## Project Structure
 
-## Scripts
-
-```bash
-npm run lint
-npm run format
-npm start
-```
+```text
+web-engineering-lab1/
+│
+├── public/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+│
+├── tests/
+│   └── greet.test.js
+│
+├── package.json
+└── README.md
